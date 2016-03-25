@@ -12,7 +12,7 @@ Die Hardware und Doku dieses Entwicklungsplatine steht unter folgender Lizenz: [
 
 ## Aufbau der Platine & Bestückungsplan
 
-TODO: Fotos einfügen
+
 
 ## Arduino-Bootloader flashen
 
