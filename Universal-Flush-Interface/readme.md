@@ -54,4 +54,4 @@ Die Hardware und Doku dieser Schnittstelle stehen unter folgender Lizenz: [licen
 - 7-polige Schraubklemme
 
 ## Schematik
-[Universal Flush Interface.pdf](/Universal-Flush-Interface/Universal Flush Interface.pdf
+[Universal Flush Interface.pdf](/Universal-Flush-Interface/Universal Flush Interface.pdf)
