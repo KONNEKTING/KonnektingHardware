@@ -1,9 +1,13 @@
 # Universal UP Schnittstelle
 
+english version: [readme_en.md](/Universal-Flush-Interface/readme_en.md)
+
 ## Lizenz
 
 Die Hardware und Doku dieser Schnittstelle stehen unter folgender Lizenz: [license.md](/Universal-Flush-Interface/license.md)
 
+## Weitere Informationen (in German): 
+[KNX User Forum] (https://knx-user-forum.de/forum/projektforen/konnekting/941633-universal-up-schnittstelle-1wire-up-mini-gateway-bin%C3%A4reing%C3%A4nge-i%C2%B2c-spi-digitale-i-os-etc)
 
 ## Teile
 
