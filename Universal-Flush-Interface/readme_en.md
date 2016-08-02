@@ -1,12 +1,13 @@
 # Universal Flush Interface
 
-german version: [license.md](/Universal-Flush-Interface/readme.md)
+german version: [readme.md](/Universal-Flush-Interface/readme.md)
 
 ## License
 
 Hardware and documentation released under this license: [license.md](/Universal-Flush-Interface/license.md)
 
-## More infos (in German): [KNX User Forum](https://knx-user-forum.de/forum/projektforen/konnekting/941633-universal-up-schnittstelle-1wire-up-mini-gateway-bin%C3%A4reing%C3%A4nge-i%C2%B2c-spi-digitale-i-os-etc)
+## More infos (in German): 
+[KNX User Forum](https://knx-user-forum.de/forum/projektforen/konnekting/941633-universal-up-schnittstelle-1wire-up-mini-gateway-bin%C3%A4reing%C3%A4nge-i%C2%B2c-spi-digitale-i-os-etc)
 
 ## Teile
 
