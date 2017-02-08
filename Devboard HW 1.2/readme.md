@@ -1,21 +1,53 @@
-# Entwicklungsplatine HW 1.2
+# Devboard HW 1.2
 
-## Lizenz
+## License
 
-Die Hardware und Doku dieses Entwicklungsplatine steht unter folgender Lizenz: [license.md](/Devboard HW 1.2/license.md)
+Hardware and documentation released under this license: [license.md](/Devboard HW 1.2/license.md)
 
-## Teileliste & Warenkorb
+## More infos: 
+[konnekting.de](http://www.konnekting.de/projekte/entwicklungsboards/)
 
-| Bauteil | Bezeichnung                 | Bauart               |
-|:--------|:----------------------------|:---------------------|
-| C?      | Kondensator 100uF/35V       | Becherelko 6.3mm SMD |
+## Parts for NCN5120
+|Article number        | Part  | Description         | Amount      |
+|:------------------|:---------|:--------------------|:-------------|
+|	493-2203-1-ND	|	C11	|	CAP ALUM 100UF 20% 35V SMD	|	1	|
+|	1276-1063-1-ND	|	C7	|	CAP CER 0.047UF 50V X7R 0603	|	1	|
+|	399-7845-1-ND	|	C9;C18;C20;C21	|	CAP CER 0.1UF 50V X7R 0603	|	4	|
+|	1276-2407-1-ND	|	C15	|	CAP CER 10UF 6.3V X5R 0805	|	1	|
+|	1276-1861-1-ND	|	C4	|	CAP CER 1UF 35V X5R 0603	|	1	|
+|	399-7927-1-ND	|	C8	|	CAP CER 4700PF 25V X7R 0603	|	1	|
+|	490-1198-1-ND	|	Y1	|	CER RES 16.0000MHZ 15PF SMD	|	1	|
+|	36-1425-2-ND	|	Pins	|	CONN PC PIN CIRC 0.040DIA TIN	|	2	|
+|	SS16T3GOSCT-ND	|	D1	|	DIODE SCHOTTKY 60V 1A SMA	|	1	|
+|	SRR5028-221YCT-ND	|	L1	|	FIXED IND 220UH 300MA 1.25 OHM	|	1	|
+|	NCN5120MNTWGOSCT-ND	|	NCN5120	|	IC RECEIVER/XMITTER KNX 40QFN	|	1	|
+|	475-2815-1-ND	|	PROG_LED	|	LED BLUE DIFFUSED 0603 SMD	|	1	|
+|	RNCP0603FTD1R00CT-ND	|	R3	|	RES SMD 1 OHM 1% 1/8W 0603	|	1	|
+|	RNCP0603FTD100RCT-ND	|	R123.3V	|	RES SMD 100 OHM 1% 1/8W 0603	|	1	|
+|	RNCP0603FTD10K0CT-ND	|	R14	|	RES SMD 10K OHM 1% 1/8W 0603	|	1	|
+|	311-1.00KHRCT-ND	|	R8;R9;R10	|	RES SMD 1K OHM 1% 1/10W 0603	|	3	|
+|	A102515CT-ND	|	R1	|	RES SMD 22 OHM 5% 1W 2512	|	1	|
+|	450-2146-1-ND	|	PROG_SW	|	SWITCH TACTILE SPST-NO 0.05A 24V	|	1	|
+|	1SMA40CAT3GOSCT-ND	|	D2	|	TVS DIODE 40VWM 64.5VC SMA	|	1	|
 
-## Aufbau der Platine & Bestückungsplan
+## Parts for ProMicro
 
-
-
-## Arduino-Bootloader flashen
-
-Fertig gekaufte Arduino-Boards haben den Arduino-Bootloader schon ab Werk aufgespielt. 
-Selbst-bestückte AVR Mikrocontroller brauchen diesen Bootloader aber noch. Wie man das bewerkstelligt steht hier:
-
+|Article number        | Part  | Description         | Amount      |
+|:------------------|:---------|:--------------------|:-------------|
+|	399-7845-1-ND 	|	C1;C2;C3 	|	CAP CER 0.1UF 50V X7R 0603 	|	3	|
+|	1276-1036-1-ND 	|	C5;C10 	|	CAP CER 1UF 6.3V X5R 0603 	|	2	|
+|	399-8269-1-ND 	|	C13;C19 	|	CAP TANT 10UF 16V 10% 1206 	|	2	|
+|	490-1195-1-ND 	|	Y3 	|	CER RES 8.0000MHZ 33PF SMD 	|	1	|
+|	732-3155-1-ND 	|	USB 	|	CONN RCPT USB MICRO B R/A SMT 	|	1	|
+|	NSR0320MW2T1GOSCT-ND 	|	D2 	|	DIODE SCHOTTKY 20V 1A SOD323 	|	1	|
+|	507-1876-1-ND 	|	F1 	|	FUSE 500MA 125VAC FAST 1206 	|	1	|
+|	ATMEGA32U4-MU-ND 	|	IC 	|	IC MCU 8BIT 32KB FLASH 44QFN 	|	1	|
+|	576-1281-1-ND 	|	U2 	|	IC REG LDO 3.3V 0.5A SOT23-5 	|	1	|
+|	475-2815-1-ND 	|	LED1 	|	LED BLUE DIFFUSED 0603 SMD 	|	1	|
+|	475-2709-1-ND 	|	GREEN 	|	LED GREEN DIFFUSED 0603 SMD 	|	1	|
+|	475-1196-1-ND 	|	YELLOW 	|	LED YELLOW DIFFUSED 0603 SMD 	|	1	|
+|	RNCP0603FTD100RCT-ND 	|	R11 	|	RES SMD 100 OHM 1% 1/8W 0603 	|	1	|
+|	311-10.0KHRCT-ND 	|	R2 	|	RES SMD 10K OHM 1% 1/10W 0603 	|	1	|
+|	311-1.0KGRCT-ND 	|	R4;R6 	|	RES SMD 1K OHM 5% 1/10W 0603 	|	2	|
+|	311-22.0HRCT-ND 	|	R5;R7 	|	RES SMD 22 OHM 1% 1/10W 0603 	|	2	|
+|	CKN9104CT-ND 	|	ResetBtn 	|	SWITCH TACTILE SPST-NO 0.02A 15V 	|	1	|
