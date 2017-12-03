@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.4.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MI_34X34MM">
+<wire x1="28.2" y1="34.2" x2="28.2" y2="31.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="31.2" x2="31.2" y2="28.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="31.2" y1="28.2" x2="34.2" y2="28.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="34.2" x2="1" y2="34.2" width="0.3048" layer="20"/>
+<wire x1="1" y1="34.2" x2="0" y2="33.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="0" y1="6" x2="3" y2="6" width="0.3048" layer="20"/>
+<wire x1="3" y1="6" x2="6" y2="3" width="0.3048" layer="20" curve="-90"/>
+<wire x1="6" y1="3" x2="6" y2="0" width="0.3048" layer="20"/>
+<wire x1="6" y1="0" x2="33.2" y2="0" width="0.3048" layer="20"/>
+<wire x1="34.2" y1="28.2" x2="34.2" y2="1" width="0.3048" layer="20"/>
+<wire x1="34.2" y1="1" x2="33.2" y2="0" width="0.3048" layer="20" curve="-90"/>
+<hole x="27.2" y="2.8" drill="2.5"/>
+<hole x="7" y="31.4" drill="2.5"/>
+<circle x="6.985" y="31.3928" radius="2.36" width="0.254" layer="25"/>
+<circle x="27.2" y="2.8" radius="2.36" width="0.254" layer="25"/>
+<wire x1="0" y1="33.2" x2="0" y2="6" width="0.3048" layer="20"/>
+<pad name="XL9" x="1.5" y="7.5" drill="1" shape="long"/>
+<pad name="XR0" x="32.7" y="26.7" drill="1" shape="long"/>
+<pad name="XR1" x="32.7" y="24.16" drill="1" shape="long"/>
+<pad name="XR2" x="32.7" y="21.62" drill="1" shape="long"/>
+<pad name="XR3" x="32.7" y="19.08" drill="1" shape="long"/>
+<pad name="XR4" x="32.7" y="16.54" drill="1" shape="long"/>
+<pad name="XR5" x="32.7" y="14" drill="1" shape="long"/>
+<pad name="XR6" x="32.7" y="11.46" drill="1" shape="long"/>
+<pad name="XR7" x="32.7" y="8.92" drill="1" shape="long"/>
+<pad name="XR8" x="32.7" y="6.38" drill="1" shape="long"/>
+<pad name="XR9" x="32.7" y="3.84" drill="1" shape="long"/>
+<pad name="XL3" x="1.5" y="22.74" drill="1" shape="long"/>
+<pad name="XL8" x="1.5" y="10.04" drill="1" shape="long"/>
+<pad name="XL4" x="1.5" y="20.2" drill="1" shape="long"/>
+<pad name="XL7" x="1.5" y="12.58" drill="1" shape="long"/>
+<pad name="XL5" x="1.5" y="17.66" drill="1" shape="long"/>
+<pad name="XL6" x="1.5" y="15.12" drill="1" shape="long"/>
+<pad name="XL2" x="1.5" y="25.28" drill="1" shape="long"/>
+<pad name="XL1" x="1.5" y="27.82" drill="1" shape="long"/>
+<pad name="XL0" x="1.5" y="30.36" drill="1" shape="long"/>
+</package>
+<package name="MI_34X34MM_TERMINALS_ONLY">
+<pad name="XL9" x="1.5" y="7.5" drill="1" shape="long"/>
+<pad name="XR0" x="32.7" y="26.7" drill="1" shape="long"/>
+<pad name="XR1" x="32.7" y="24.16" drill="1" shape="long"/>
+<pad name="XR2" x="32.7" y="21.62" drill="1" shape="long"/>
+<pad name="XR3" x="32.7" y="19.08" drill="1" shape="long"/>
+<pad name="XR4" x="32.7" y="16.54" drill="1" shape="long"/>
+<pad name="XR5" x="32.7" y="14" drill="1" shape="long"/>
+<pad name="XR6" x="32.7" y="11.46" drill="1" shape="long"/>
+<pad name="XR7" x="32.7" y="8.92" drill="1" shape="long"/>
+<pad name="XR8" x="32.7" y="6.38" drill="1" shape="long"/>
+<pad name="XR9" x="32.7" y="3.84" drill="1" shape="long"/>
+<pad name="XL3" x="1.5" y="22.74" drill="1" shape="long"/>
+<pad name="XL8" x="1.5" y="10.04" drill="1" shape="long"/>
+<pad name="XL4" x="1.5" y="20.2" drill="1" shape="long"/>
+<pad name="XL7" x="1.5" y="12.58" drill="1" shape="long"/>
+<pad name="XL5" x="1.5" y="17.66" drill="1" shape="long"/>
+<pad name="XL6" x="1.5" y="15.12" drill="1" shape="long"/>
+<pad name="XL2" x="1.5" y="25.28" drill="1" shape="long"/>
+<pad name="XL1" x="1.5" y="27.82" drill="1" shape="long"/>
+<pad name="XL0" x="1.5" y="30.36" drill="1" shape="long"/>
+</package>
+<package name="MI_34X34MM_ADDON">
+<wire x1="28.2" y1="34.2" x2="28.2" y2="31.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="31.2" x2="31.2" y2="28.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="31.2" y1="28.2" x2="34.2" y2="28.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="34.2" x2="1" y2="34.2" width="0.3048" layer="20"/>
+<wire x1="1" y1="34.2" x2="0" y2="33.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="0" y1="6" x2="3" y2="6" width="0.3048" layer="20"/>
+<wire x1="3" y1="6" x2="6" y2="3" width="0.3048" layer="20" curve="-90"/>
+<wire x1="6" y1="3" x2="6" y2="0" width="0.3048" layer="20"/>
+<wire x1="6" y1="0" x2="33.2" y2="0" width="0.3048" layer="20"/>
+<wire x1="34.2" y1="28.2" x2="34.2" y2="1" width="0.3048" layer="20"/>
+<wire x1="34.2" y1="1" x2="33.2" y2="0" width="0.3048" layer="20" curve="-90"/>
+<hole x="27.2" y="2.8" drill="2.5"/>
+<hole x="7" y="31.4" drill="2.5"/>
+<circle x="6.985" y="31.3928" radius="2.36" width="0.254" layer="25"/>
+<circle x="27.2" y="2.8" radius="2.36" width="0.254" layer="25"/>
+<wire x1="0" y1="33.2" x2="0" y2="6" width="0.3048" layer="20"/>
+<pad name="XR9" x="1.5" y="8.92" drill="1" shape="long"/>
+<pad name="XL2" x="32.7" y="25.28" drill="1" shape="long"/>
+<pad name="XL3" x="32.7" y="22.74" drill="1" shape="long"/>
+<pad name="XL4" x="32.7" y="20.2" drill="1" shape="long"/>
+<pad name="XL5" x="32.7" y="17.66" drill="1" shape="long"/>
+<pad name="XL6" x="32.7" y="15.12" drill="1" shape="long"/>
+<pad name="XL7" x="32.7" y="12.58" drill="1" shape="long"/>
+<pad name="XL8" x="32.7" y="10.04" drill="1" shape="long"/>
+<pad name="XL9" x="32.7" y="7.5" drill="1" shape="long"/>
+<pad name="XR3" x="1.5" y="24.16" drill="1" shape="long"/>
+<pad name="XR8" x="1.5" y="11.46" drill="1" shape="long"/>
+<pad name="XR4" x="1.5" y="21.62" drill="1" shape="long"/>
+<pad name="XR7" x="1.5" y="14" drill="1" shape="long"/>
+<pad name="XR5" x="1.5" y="19.08" drill="1" shape="long"/>
+<pad name="XR6" x="1.5" y="16.54" drill="1" shape="long"/>
+<pad name="XR2" x="1.5" y="26.7" drill="1" shape="long"/>
+</package>
+<package name="MI_34X34MM_I2C_EXT">
+<wire x1="28.2" y1="34.2" x2="28.2" y2="31.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="31.2" x2="31.2" y2="28.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="31.2" y1="28.2" x2="34.2" y2="28.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="34.2" x2="1" y2="34.2" width="0.3048" layer="20"/>
+<wire x1="1" y1="34.2" x2="0" y2="33.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="0" y1="6" x2="3" y2="6" width="0.3048" layer="20"/>
+<wire x1="3" y1="6" x2="6" y2="3" width="0.3048" layer="20" curve="-90"/>
+<wire x1="6" y1="3" x2="6" y2="0" width="0.3048" layer="20"/>
+<wire x1="6" y1="0" x2="33.2" y2="0" width="0.3048" layer="20"/>
+<wire x1="34.2" y1="28.2" x2="34.2" y2="1" width="0.3048" layer="20"/>
+<wire x1="34.2" y1="1" x2="33.2" y2="0" width="0.3048" layer="20" curve="-90"/>
+<hole x="27.2" y="2.8" drill="2.5"/>
+<hole x="7" y="31.4" drill="2.5"/>
+<circle x="6.985" y="31.3928" radius="2.36" width="0.254" layer="25"/>
+<circle x="27.2" y="2.8" radius="2.36" width="0.254" layer="25"/>
+<wire x1="0" y1="33.2" x2="0" y2="6" width="0.3048" layer="20"/>
+<pad name="XL9" x="1.5" y="7.5" drill="1" shape="long"/>
+<pad name="XR0" x="32.7" y="26.7" drill="1" shape="long"/>
+<pad name="XR1" x="32.7" y="24.16" drill="1" shape="long"/>
+<pad name="XR2" x="32.7" y="21.62" drill="1" shape="long"/>
+<pad name="XR3" x="32.7" y="19.08" drill="1" shape="long"/>
+<pad name="XR4" x="32.7" y="16.54" drill="1" shape="long"/>
+<pad name="XR5" x="32.7" y="14" drill="1" shape="long"/>
+<pad name="XR6" x="32.7" y="11.46" drill="1" shape="long"/>
+<pad name="XR7" x="32.7" y="8.92" drill="1" shape="long"/>
+<pad name="XR8" x="32.7" y="6.38" drill="1" shape="long"/>
+<pad name="XR9" x="32.7" y="3.84" drill="1" shape="long"/>
+<pad name="XL3" x="1.5" y="22.74" drill="1" shape="long"/>
+<pad name="XL8" x="1.5" y="10.04" drill="1" shape="long"/>
+<pad name="XL4" x="1.5" y="20.2" drill="1" shape="long"/>
+<pad name="XL7" x="1.5" y="12.58" drill="1" shape="long"/>
+<pad name="XL5" x="1.5" y="17.66" drill="1" shape="long"/>
+<pad name="XL6" x="1.5" y="15.12" drill="1" shape="long"/>
+<pad name="XL2" x="1.5" y="25.28" drill="1" shape="long"/>
+<pad name="XL1" x="1.5" y="27.82" drill="1" shape="long"/>
+<pad name="XL0" x="1.5" y="30.36" drill="1" shape="long"/>
+<pad name="SCL_E" x="15.19" y="32.72" drill="1" rot="R90"/>
+<pad name="SDA_E" x="17.73" y="32.72" drill="1" rot="R90"/>
+<pad name="VCC_E" x="20.27" y="32.72" drill="1" rot="R90"/>
+<pad name="GND_E" x="22.81" y="32.72" drill="1" rot="R90"/>
+</package>
+<package name="MI_34X34MM_I2C_EXT_ADDON">
+<wire x1="28.2" y1="34.2" x2="28.2" y2="31.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="31.2" x2="31.2" y2="28.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="31.2" y1="28.2" x2="34.2" y2="28.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="34.2" x2="1" y2="34.2" width="0.3048" layer="20"/>
+<wire x1="1" y1="34.2" x2="0" y2="33.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="0" y1="6" x2="3" y2="6" width="0.3048" layer="20"/>
+<wire x1="3" y1="6" x2="6" y2="3" width="0.3048" layer="20" curve="-90"/>
+<wire x1="6" y1="3" x2="6" y2="0" width="0.3048" layer="20"/>
+<wire x1="6" y1="0" x2="33.2" y2="0" width="0.3048" layer="20"/>
+<wire x1="34.2" y1="28.2" x2="34.2" y2="1" width="0.3048" layer="20"/>
+<wire x1="34.2" y1="1" x2="33.2" y2="0" width="0.3048" layer="20" curve="-90"/>
+<hole x="27.2" y="2.8" drill="2.5"/>
+<hole x="7" y="31.4" drill="2.5"/>
+<circle x="6.985" y="31.3928" radius="2.36" width="0.254" layer="25"/>
+<circle x="27.2" y="2.8" radius="2.36" width="0.254" layer="25"/>
+<wire x1="0" y1="33.2" x2="0" y2="6" width="0.3048" layer="20"/>
+<pad name="XR9" x="1.5" y="8.92" drill="1" shape="long"/>
+<pad name="XL2" x="32.7" y="25.28" drill="1" shape="long"/>
+<pad name="XL3" x="32.7" y="22.74" drill="1" shape="long"/>
+<pad name="XL4" x="32.7" y="20.2" drill="1" shape="long"/>
+<pad name="XL5" x="32.7" y="17.66" drill="1" shape="long"/>
+<pad name="XL6" x="32.7" y="15.12" drill="1" shape="long"/>
+<pad name="XL7" x="32.7" y="12.58" drill="1" shape="long"/>
+<pad name="XL8" x="32.7" y="10.04" drill="1" shape="long"/>
+<pad name="XL9" x="32.7" y="7.5" drill="1" shape="long"/>
+<pad name="XR3" x="1.5" y="24.16" drill="1" shape="long"/>
+<pad name="XR8" x="1.5" y="11.46" drill="1" shape="long"/>
+<pad name="XR4" x="1.5" y="21.62" drill="1" shape="long"/>
+<pad name="XR7" x="1.5" y="14" drill="1" shape="long"/>
+<pad name="XR5" x="1.5" y="19.08" drill="1" shape="long"/>
+<pad name="XR6" x="1.5" y="16.54" drill="1" shape="long"/>
+<pad name="XR2" x="1.5" y="26.7" drill="1" shape="long"/>
+<pad name="SCL_E" x="22.81" y="32.7" drill="1" shape="long" rot="R90"/>
+<pad name="SDA_E" x="20.28" y="32.7" drill="1" shape="long" rot="R90"/>
+<pad name="VCC_E" x="17.74" y="32.7" drill="1" shape="long" rot="R90"/>
+<pad name="GND_E" x="15.2" y="32.7" drill="1" shape="long" rot="R90"/>
+</package>
+<package name="MI_34X34MM_ADDON_PANEL">
+<wire x1="28.2" y1="34.2" x2="28.2" y2="31.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="31.2" x2="31.2" y2="28.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="31.2" y1="28.2" x2="34.2" y2="28.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="34.2" x2="1" y2="34.2" width="0.3048" layer="48"/>
+<wire x1="1" y1="34.2" x2="0" y2="33.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="0" y1="6" x2="3" y2="6" width="0.3048" layer="20"/>
+<wire x1="3" y1="6" x2="6" y2="3" width="0.3048" layer="20" curve="-90"/>
+<wire x1="6" y1="3" x2="6" y2="0" width="0.3048" layer="20"/>
+<wire x1="6" y1="0" x2="33.2" y2="0" width="0.3048" layer="48"/>
+<wire x1="34.2" y1="28.2" x2="34.2" y2="1" width="0.3048" layer="48"/>
+<wire x1="34.2" y1="1" x2="33.2" y2="0" width="0.3048" layer="20" curve="-90"/>
+<hole x="27.2" y="2.8" drill="2.5"/>
+<hole x="7" y="31.4" drill="2.5"/>
+<circle x="6.985" y="31.3928" radius="2.36" width="0.254" layer="25"/>
+<circle x="27.2" y="2.8" radius="2.36" width="0.254" layer="25"/>
+<wire x1="0" y1="33.2" x2="0" y2="6" width="0.3048" layer="48"/>
+<pad name="XR9" x="1.5" y="8.92" drill="1" shape="long"/>
+<pad name="XL2" x="32.7" y="25.28" drill="1" shape="long"/>
+<pad name="XL3" x="32.7" y="22.74" drill="1" shape="long"/>
+<pad name="XL4" x="32.7" y="20.2" drill="1" shape="long"/>
+<pad name="XL5" x="32.7" y="17.66" drill="1" shape="long"/>
+<pad name="XL6" x="32.7" y="15.12" drill="1" shape="long"/>
+<pad name="XL7" x="32.7" y="12.58" drill="1" shape="long"/>
+<pad name="XL8" x="32.7" y="10.04" drill="1" shape="long"/>
+<pad name="XL9" x="32.7" y="7.5" drill="1" shape="long"/>
+<pad name="XR3" x="1.5" y="24.16" drill="1" shape="long"/>
+<pad name="XR8" x="1.5" y="11.46" drill="1" shape="long"/>
+<pad name="XR4" x="1.5" y="21.62" drill="1" shape="long"/>
+<pad name="XR7" x="1.5" y="14" drill="1" shape="long"/>
+<pad name="XR5" x="1.5" y="19.08" drill="1" shape="long"/>
+<pad name="XR6" x="1.5" y="16.54" drill="1" shape="long"/>
+<pad name="XR2" x="1.5" y="26.7" drill="1" shape="long"/>
+</package>
+<package name="MI_34X34MM_I2C_EXT_ADDON_PANEL">
+<wire x1="28.2" y1="34.2" x2="28.2" y2="31.2" width="0.3048" layer="48"/>
+<wire x1="28.2" y1="31.2" x2="31.2" y2="28.2" width="0.3048" layer="48" curve="90"/>
+<wire x1="31.2" y1="28.2" x2="34.2" y2="28.2" width="0.3048" layer="48"/>
+<wire x1="28.2" y1="34.2" x2="1" y2="34.2" width="0.3048" layer="48"/>
+<wire x1="1" y1="34.2" x2="0" y2="33.2" width="0.3048" layer="48" curve="90"/>
+<wire x1="0" y1="6" x2="3" y2="6" width="0.3048" layer="48"/>
+<wire x1="3" y1="6" x2="6" y2="3" width="0.3048" layer="48" curve="-90"/>
+<wire x1="6" y1="3" x2="6" y2="0" width="0.3048" layer="48"/>
+<wire x1="6" y1="0" x2="33.2" y2="0" width="0.3048" layer="48"/>
+<wire x1="34.2" y1="28.2" x2="34.2" y2="1" width="0.3048" layer="48"/>
+<wire x1="34.2" y1="1" x2="33.2" y2="0" width="0.3048" layer="48" curve="-90"/>
+<hole x="27.2" y="2.8" drill="2.5"/>
+<hole x="7" y="31.4" drill="2.5"/>
+<circle x="6.985" y="31.3928" radius="2.36" width="0.254" layer="25"/>
+<circle x="27.2" y="2.8" radius="2.36" width="0.254" layer="25"/>
+<wire x1="0" y1="33.2" x2="0" y2="6" width="0.3048" layer="48"/>
+<pad name="XR9" x="1.5" y="8.92" drill="1" shape="long"/>
+<pad name="XL2" x="32.7" y="25.28" drill="1" shape="long"/>
+<pad name="XL3" x="32.7" y="22.74" drill="1" shape="long"/>
+<pad name="XL4" x="32.7" y="20.2" drill="1" shape="long"/>
+<pad name="XL5" x="32.7" y="17.66" drill="1" shape="long"/>
+<pad name="XL6" x="32.7" y="15.12" drill="1" shape="long"/>
+<pad name="XL7" x="32.7" y="12.58" drill="1" shape="long"/>
+<pad name="XL8" x="32.7" y="10.04" drill="1" shape="long"/>
+<pad name="XL9" x="32.7" y="7.5" drill="1" shape="long"/>
+<pad name="XR3" x="1.5" y="24.16" drill="1" shape="long"/>
+<pad name="XR8" x="1.5" y="11.46" drill="1" shape="long"/>
+<pad name="XR4" x="1.5" y="21.62" drill="1" shape="long"/>
+<pad name="XR7" x="1.5" y="14" drill="1" shape="long"/>
+<pad name="XR5" x="1.5" y="19.08" drill="1" shape="long"/>
+<pad name="XR6" x="1.5" y="16.54" drill="1" shape="long"/>
+<pad name="XR2" x="1.5" y="26.7" drill="1" shape="long"/>
+<pad name="SCL_E" x="22.81" y="32.7" drill="1" shape="long" rot="R90"/>
+<pad name="SDA_E" x="20.28" y="32.7" drill="1" shape="long" rot="R90"/>
+<pad name="VCC_E" x="17.74" y="32.7" drill="1" shape="long" rot="R90"/>
+<pad name="GND_E" x="15.2" y="32.7" drill="1" shape="long" rot="R90"/>
+</package>
+<package name="MI_34X34MM_PANEL">
+<wire x1="28.2" y1="34.2" x2="28.2" y2="31.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="31.2" x2="31.2" y2="28.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="31.2" y1="28.2" x2="34.2" y2="28.2" width="0.3048" layer="20"/>
+<wire x1="28.2" y1="34.2" x2="1" y2="34.2" width="0.3048" layer="48"/>
+<wire x1="1" y1="34.2" x2="0" y2="33.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="0" y1="6" x2="3" y2="6" width="0.3048" layer="20"/>
+<wire x1="3" y1="6" x2="6" y2="3" width="0.3048" layer="20" curve="-90"/>
+<wire x1="6" y1="3" x2="6" y2="0" width="0.3048" layer="20"/>
+<wire x1="6" y1="0" x2="33.2" y2="0" width="0.3048" layer="48"/>
+<wire x1="34.2" y1="28.2" x2="34.2" y2="1" width="0.3048" layer="48"/>
+<wire x1="34.2" y1="1" x2="33.2" y2="0" width="0.3048" layer="20" curve="-90"/>
+<hole x="27.2" y="2.8" drill="2.5"/>
+<hole x="7" y="31.4" drill="2.5"/>
+<circle x="6.985" y="31.3928" radius="2.36" width="0.254" layer="25"/>
+<circle x="27.2" y="2.8" radius="2.36" width="0.254" layer="25"/>
+<wire x1="0" y1="33.2" x2="0" y2="6" width="0.3048" layer="48"/>
+<pad name="XL9" x="1.5" y="7.5" drill="1" shape="long"/>
+<pad name="XR0" x="32.7" y="26.7" drill="1" shape="long"/>
+<pad name="XR1" x="32.7" y="24.16" drill="1" shape="long"/>
+<pad name="XR2" x="32.7" y="21.62" drill="1" shape="long"/>
+<pad name="XR3" x="32.7" y="19.08" drill="1" shape="long"/>
+<pad name="XR4" x="32.7" y="16.54" drill="1" shape="long"/>
+<pad name="XR5" x="32.7" y="14" drill="1" shape="long"/>
+<pad name="XR6" x="32.7" y="11.46" drill="1" shape="long"/>
+<pad name="XR7" x="32.7" y="8.92" drill="1" shape="long"/>
+<pad name="XR8" x="32.7" y="6.38" drill="1" shape="long"/>
+<pad name="XR9" x="32.7" y="3.84" drill="1" shape="long"/>
+<pad name="XL3" x="1.5" y="22.74" drill="1" shape="long"/>
+<pad name="XL8" x="1.5" y="10.04" drill="1" shape="long"/>
+<pad name="XL4" x="1.5" y="20.2" drill="1" shape="long"/>
+<pad name="XL7" x="1.5" y="12.58" drill="1" shape="long"/>
+<pad name="XL5" x="1.5" y="17.66" drill="1" shape="long"/>
+<pad name="XL6" x="1.5" y="15.12" drill="1" shape="long"/>
+<pad name="XL2" x="1.5" y="25.28" drill="1" shape="long"/>
+<pad name="XL1" x="1.5" y="27.82" drill="1" shape="long"/>
+<pad name="XL0" x="1.5" y="30.36" drill="1" shape="long"/>
+</package>
+<package name="PCB_44X44MM">
+<wire x1="38.2" y1="44.2" x2="38.2" y2="41.2" width="0.3048" layer="20"/>
+<wire x1="38.2" y1="41.2" x2="41.2" y2="38.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="41.2" y1="38.2" x2="44.2" y2="38.2" width="0.3048" layer="20"/>
+<wire x1="38.2" y1="44.2" x2="1" y2="44.2" width="0.3048" layer="20"/>
+<wire x1="1" y1="44.2" x2="0" y2="43.2" width="0.3048" layer="20" curve="90"/>
+<wire x1="0" y1="6" x2="3" y2="6" width="0.3048" layer="20"/>
+<wire x1="3" y1="6" x2="6" y2="3" width="0.3048" layer="20" curve="-90"/>
+<wire x1="6" y1="3" x2="6" y2="0" width="0.3048" layer="20"/>
+<wire x1="6" y1="0" x2="43.2" y2="0" width="0.3048" layer="20"/>
+<wire x1="44.2" y1="38.2" x2="44.2" y2="1" width="0.3048" layer="20"/>
+<wire x1="44.2" y1="1" x2="43.2" y2="0" width="0.3048" layer="20" curve="-90"/>
+<hole x="37.2" y="2.8" drill="2.5"/>
+<hole x="7" y="41.4" drill="2.5"/>
+<circle x="6.985" y="41.3928" radius="2.36" width="0.254" layer="25"/>
+<circle x="37.2" y="2.8" radius="2.36" width="0.254" layer="25"/>
+<wire x1="0" y1="43.2" x2="0" y2="6" width="0.3048" layer="20"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MI">
+<description>Universal Flush Interface PCB Connectors</description>
+<pin name="XL1" x="-10.16" y="7.62" length="short"/>
+<pin name="XL2" x="-10.16" y="5.08" length="short"/>
+<pin name="XL3" x="-10.16" y="2.54" length="short"/>
+<pin name="XL4" x="-10.16" y="0" length="short"/>
+<pin name="XL5" x="-10.16" y="-2.54" length="short"/>
+<pin name="XL6" x="-10.16" y="-5.08" length="short"/>
+<pin name="XL7" x="-10.16" y="-7.62" length="short"/>
+<pin name="XL8" x="-10.16" y="-10.16" length="short"/>
+<pin name="XL9" x="-10.16" y="-12.7" length="short"/>
+<pin name="XL0" x="-10.16" y="10.16" length="short"/>
+<pin name="XR1" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="XR2" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="XR3" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="XR4" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="XR5" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="XR6" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="XR7" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="XR8" x="10.16" y="-10.16" length="short" rot="R180"/>
+<pin name="XR9" x="10.16" y="-12.7" length="short" rot="R180"/>
+<pin name="XR0" x="10.16" y="10.16" length="short" rot="R180"/>
+<wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MI_ADDON">
+<description>Universal Flush Interface PCB Connectors</description>
+<pin name="XL2" x="-10.16" y="7.62" length="short"/>
+<pin name="XL3" x="-10.16" y="5.08" length="short"/>
+<pin name="XL4" x="-10.16" y="2.54" length="short"/>
+<pin name="XL5" x="-10.16" y="0" length="short"/>
+<pin name="XL6" x="-10.16" y="-2.54" length="short"/>
+<pin name="XL7" x="-10.16" y="-5.08" length="short"/>
+<pin name="XL8" x="-10.16" y="-7.62" length="short"/>
+<pin name="XL9" x="-10.16" y="-10.16" length="short"/>
+<pin name="XR2" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="XR3" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="XR4" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="XR5" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="XR6" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="XR7" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="XR8" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="XR9" x="10.16" y="-10.16" length="short" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MI_I2C_EXT">
+<description>Universal Flush Interface PCB Connectors</description>
+<pin name="XL1" x="-10.16" y="7.62" length="short"/>
+<pin name="XL2" x="-10.16" y="5.08" length="short"/>
+<pin name="XL3" x="-10.16" y="2.54" length="short"/>
+<pin name="XL4" x="-10.16" y="0" length="short"/>
+<pin name="XL5" x="-10.16" y="-2.54" length="short"/>
+<pin name="XL6" x="-10.16" y="-5.08" length="short"/>
+<pin name="XL7" x="-10.16" y="-7.62" length="short"/>
+<pin name="XL8" x="-10.16" y="-10.16" length="short"/>
+<pin name="XL9" x="-10.16" y="-12.7" length="short"/>
+<pin name="XL0" x="-10.16" y="10.16" length="short"/>
+<pin name="XR1" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="XR2" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="XR3" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="XR4" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="XR5" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="XR6" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="XR7" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="XR8" x="10.16" y="-10.16" length="short" rot="R180"/>
+<pin name="XR9" x="10.16" y="-12.7" length="short" rot="R180"/>
+<pin name="XR0" x="10.16" y="10.16" length="short" rot="R180"/>
+<wire x1="-7.62" y1="20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="20.32" width="0.254" layer="94"/>
+<pin name="GND" x="5.08" y="22.86" length="short" rot="R270"/>
+<pin name="VCC" x="2.54" y="22.86" length="short" rot="R270"/>
+<pin name="SDA" x="0" y="22.86" length="short" rot="R270"/>
+<pin name="SCL" x="-2.54" y="22.86" length="short" rot="R270"/>
+</symbol>
+<symbol name="MI_I2C_EXT_ADDON">
+<description>Universal Flush Interface PCB Connectors</description>
+<pin name="XL2" x="-10.16" y="5.08" length="short"/>
+<pin name="XL3" x="-10.16" y="2.54" length="short"/>
+<pin name="XL4" x="-10.16" y="0" length="short"/>
+<pin name="XL5" x="-10.16" y="-2.54" length="short"/>
+<pin name="XL6" x="-10.16" y="-5.08" length="short"/>
+<pin name="XL7" x="-10.16" y="-7.62" length="short"/>
+<pin name="XL8" x="-10.16" y="-10.16" length="short"/>
+<pin name="XL9" x="-10.16" y="-12.7" length="short"/>
+<pin name="XR2" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="XR3" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="XR4" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="XR5" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="XR6" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="XR7" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="XR8" x="10.16" y="-10.16" length="short" rot="R180"/>
+<pin name="XR9" x="10.16" y="-12.7" length="short" rot="R180"/>
+<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<pin name="GND" x="5.08" y="17.78" length="short" rot="R270"/>
+<pin name="VCC" x="2.54" y="17.78" length="short" rot="R270"/>
+<pin name="SDA" x="0" y="17.78" length="short" rot="R270"/>
+<pin name="SCL" x="-2.54" y="17.78" length="short" rot="R270"/>
+</symbol>
+<symbol name="MI_I2C_EXT_ADDON_ARD">
+<description>Universal Flush Interface PCB Connectors</description>
+<pin name="A1" x="-12.7" y="5.08" length="short"/>
+<pin name="VCC/2" x="-12.7" y="2.54" length="short"/>
+<pin name="D3" x="-12.7" y="0" length="short"/>
+<pin name="GND_L1" x="-12.7" y="-2.54" length="short"/>
+<pin name="D4" x="-12.7" y="-5.08" length="short"/>
+<pin name="D5" x="-12.7" y="-7.62" length="short"/>
+<pin name="GND_L2" x="-12.7" y="-10.16" length="short"/>
+<pin name="D2" x="-12.7" y="-12.7" length="short"/>
+<pin name="D11" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="GND_R1" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="D13" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="D10" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="GND_R2" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="D12" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="VCC" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="D6" x="12.7" y="-12.7" length="short" rot="R180"/>
+<wire x1="-10.16" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<pin name="GND_E" x="5.08" y="20.32" length="short" rot="R270"/>
+<pin name="VCC_E" x="2.54" y="20.32" length="short" rot="R270"/>
+<pin name="SDA_E" x="0" y="20.32" length="short" rot="R270"/>
+<pin name="SCL_E" x="-2.54" y="20.32" length="short" rot="R270"/>
+</symbol>
+<symbol name="PCB">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="1.016" y="0.762" size="1.27" layer="94">pcb</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MI">
+<gates>
+<gate name="G$1" symbol="MI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PCB" package="MI_34X34MM">
+<connects>
+<connect gate="G$1" pin="XL0" pad="XL0"/>
+<connect gate="G$1" pin="XL1" pad="XL1"/>
+<connect gate="G$1" pin="XL2" pad="XL2"/>
+<connect gate="G$1" pin="XL3" pad="XL3"/>
+<connect gate="G$1" pin="XL4" pad="XL4"/>
+<connect gate="G$1" pin="XL5" pad="XL5"/>
+<connect gate="G$1" pin="XL6" pad="XL6"/>
+<connect gate="G$1" pin="XL7" pad="XL7"/>
+<connect gate="G$1" pin="XL8" pad="XL8"/>
+<connect gate="G$1" pin="XL9" pad="XL9"/>
+<connect gate="G$1" pin="XR0" pad="XR0"/>
+<connect gate="G$1" pin="XR1" pad="XR1"/>
+<connect gate="G$1" pin="XR2" pad="XR2"/>
+<connect gate="G$1" pin="XR3" pad="XR3"/>
+<connect gate="G$1" pin="XR4" pad="XR4"/>
+<connect gate="G$1" pin="XR5" pad="XR5"/>
+<connect gate="G$1" pin="XR6" pad="XR6"/>
+<connect gate="G$1" pin="XR7" pad="XR7"/>
+<connect gate="G$1" pin="XR8" pad="XR8"/>
+<connect gate="G$1" pin="XR9" pad="XR9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TERMINALS_ONLY" package="MI_34X34MM_TERMINALS_ONLY">
+<connects>
+<connect gate="G$1" pin="XL0" pad="XL0"/>
+<connect gate="G$1" pin="XL1" pad="XL1"/>
+<connect gate="G$1" pin="XL2" pad="XL2"/>
+<connect gate="G$1" pin="XL3" pad="XL3"/>
+<connect gate="G$1" pin="XL4" pad="XL4"/>
+<connect gate="G$1" pin="XL5" pad="XL5"/>
+<connect gate="G$1" pin="XL6" pad="XL6"/>
+<connect gate="G$1" pin="XL7" pad="XL7"/>
+<connect gate="G$1" pin="XL8" pad="XL8"/>
+<connect gate="G$1" pin="XL9" pad="XL9"/>
+<connect gate="G$1" pin="XR0" pad="XR0"/>
+<connect gate="G$1" pin="XR1" pad="XR1"/>
+<connect gate="G$1" pin="XR2" pad="XR2"/>
+<connect gate="G$1" pin="XR3" pad="XR3"/>
+<connect gate="G$1" pin="XR4" pad="XR4"/>
+<connect gate="G$1" pin="XR5" pad="XR5"/>
+<connect gate="G$1" pin="XR6" pad="XR6"/>
+<connect gate="G$1" pin="XR7" pad="XR7"/>
+<connect gate="G$1" pin="XR8" pad="XR8"/>
+<connect gate="G$1" pin="XR9" pad="XR9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PANEL" package="MI_34X34MM_PANEL">
+<connects>
+<connect gate="G$1" pin="XL0" pad="XL0"/>
+<connect gate="G$1" pin="XL1" pad="XL1"/>
+<connect gate="G$1" pin="XL2" pad="XL2"/>
+<connect gate="G$1" pin="XL3" pad="XL3"/>
+<connect gate="G$1" pin="XL4" pad="XL4"/>
+<connect gate="G$1" pin="XL5" pad="XL5"/>
+<connect gate="G$1" pin="XL6" pad="XL6"/>
+<connect gate="G$1" pin="XL7" pad="XL7"/>
+<connect gate="G$1" pin="XL8" pad="XL8"/>
+<connect gate="G$1" pin="XL9" pad="XL9"/>
+<connect gate="G$1" pin="XR0" pad="XR0"/>
+<connect gate="G$1" pin="XR1" pad="XR1"/>
+<connect gate="G$1" pin="XR2" pad="XR2"/>
+<connect gate="G$1" pin="XR3" pad="XR3"/>
+<connect gate="G$1" pin="XR4" pad="XR4"/>
+<connect gate="G$1" pin="XR5" pad="XR5"/>
+<connect gate="G$1" pin="XR6" pad="XR6"/>
+<connect gate="G$1" pin="XR7" pad="XR7"/>
+<connect gate="G$1" pin="XR8" pad="XR8"/>
+<connect gate="G$1" pin="XR9" pad="XR9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MI_ADDON">
+<gates>
+<gate name="G$1" symbol="MI_ADDON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MI_34X34MM_ADDON">
+<connects>
+<connect gate="G$1" pin="XL2" pad="XL2"/>
+<connect gate="G$1" pin="XL3" pad="XL3"/>
+<connect gate="G$1" pin="XL4" pad="XL4"/>
+<connect gate="G$1" pin="XL5" pad="XL5"/>
+<connect gate="G$1" pin="XL6" pad="XL6"/>
+<connect gate="G$1" pin="XL7" pad="XL7"/>
+<connect gate="G$1" pin="XL8" pad="XL8"/>
+<connect gate="G$1" pin="XL9" pad="XL9"/>
+<connect gate="G$1" pin="XR2" pad="XR2"/>
+<connect gate="G$1" pin="XR3" pad="XR3"/>
+<connect gate="G$1" pin="XR4" pad="XR4"/>
+<connect gate="G$1" pin="XR5" pad="XR5"/>
+<connect gate="G$1" pin="XR6" pad="XR6"/>
+<connect gate="G$1" pin="XR7" pad="XR7"/>
+<connect gate="G$1" pin="XR8" pad="XR8"/>
+<connect gate="G$1" pin="XR9" pad="XR9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PANEL" package="MI_34X34MM_ADDON_PANEL">
+<connects>
+<connect gate="G$1" pin="XL2" pad="XL2"/>
+<connect gate="G$1" pin="XL3" pad="XL3"/>
+<connect gate="G$1" pin="XL4" pad="XL4"/>
+<connect gate="G$1" pin="XL5" pad="XL5"/>
+<connect gate="G$1" pin="XL6" pad="XL6"/>
+<connect gate="G$1" pin="XL7" pad="XL7"/>
+<connect gate="G$1" pin="XL8" pad="XL8"/>
+<connect gate="G$1" pin="XL9" pad="XL9"/>
+<connect gate="G$1" pin="XR2" pad="XR2"/>
+<connect gate="G$1" pin="XR3" pad="XR3"/>
+<connect gate="G$1" pin="XR4" pad="XR4"/>
+<connect gate="G$1" pin="XR5" pad="XR5"/>
+<connect gate="G$1" pin="XR6" pad="XR6"/>
+<connect gate="G$1" pin="XR7" pad="XR7"/>
+<connect gate="G$1" pin="XR8" pad="XR8"/>
+<connect gate="G$1" pin="XR9" pad="XR9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MI_I2C_EXT_ADDON">
+<gates>
+<gate name="G$1" symbol="MI_I2C_EXT_ADDON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MI_34X34MM_I2C_EXT_ADDON">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND_E"/>
+<connect gate="G$1" pin="SCL" pad="SCL_E"/>
+<connect gate="G$1" pin="SDA" pad="SDA_E"/>
+<connect gate="G$1" pin="VCC" pad="VCC_E"/>
+<connect gate="G$1" pin="XL2" pad="XL2"/>
+<connect gate="G$1" pin="XL3" pad="XL3"/>
+<connect gate="G$1" pin="XL4" pad="XL4"/>
+<connect gate="G$1" pin="XL5" pad="XL5"/>
+<connect gate="G$1" pin="XL6" pad="XL6"/>
+<connect gate="G$1" pin="XL7" pad="XL7"/>
+<connect gate="G$1" pin="XL8" pad="XL8"/>
+<connect gate="G$1" pin="XL9" pad="XL9"/>
+<connect gate="G$1" pin="XR2" pad="XR2"/>
+<connect gate="G$1" pin="XR3" pad="XR3"/>
+<connect gate="G$1" pin="XR4" pad="XR4"/>
+<connect gate="G$1" pin="XR5" pad="XR5"/>
+<connect gate="G$1" pin="XR6" pad="XR6"/>
+<connect gate="G$1" pin="XR7" pad="XR7"/>
+<connect gate="G$1" pin="XR8" pad="XR8"/>
+<connect gate="G$1" pin="XR9" pad="XR9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PANEL" package="MI_34X34MM_I2C_EXT_ADDON_PANEL">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND_E"/>
+<connect gate="G$1" pin="SCL" pad="SCL_E"/>
+<connect gate="G$1" pin="SDA" pad="SDA_E"/>
+<connect gate="G$1" pin="VCC" pad="VCC_E"/>
+<connect gate="G$1" pin="XL2" pad="XL2"/>
+<connect gate="G$1" pin="XL3" pad="XL3"/>
+<connect gate="G$1" pin="XL4" pad="XL4"/>
+<connect gate="G$1" pin="XL5" pad="XL5"/>
+<connect gate="G$1" pin="XL6" pad="XL6"/>
+<connect gate="G$1" pin="XL7" pad="XL7"/>
+<connect gate="G$1" pin="XL8" pad="XL8"/>
+<connect gate="G$1" pin="XL9" pad="XL9"/>
+<connect gate="G$1" pin="XR2" pad="XR2"/>
+<connect gate="G$1" pin="XR3" pad="XR3"/>
+<connect gate="G$1" pin="XR4" pad="XR4"/>
+<connect gate="G$1" pin="XR5" pad="XR5"/>
+<connect gate="G$1" pin="XR6" pad="XR6"/>
+<connect gate="G$1" pin="XR7" pad="XR7"/>
+<connect gate="G$1" pin="XR8" pad="XR8"/>
+<connect gate="G$1" pin="XR9" pad="XR9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MI_I2C_EXT_ADDON_ARD">
+<gates>
+<gate name="G$1" symbol="MI_I2C_EXT_ADDON_ARD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MI_34X34MM_I2C_EXT_ADDON">
+<connects>
+<connect gate="G$1" pin="A1" pad="XL2"/>
+<connect gate="G$1" pin="D10" pad="XR5"/>
+<connect gate="G$1" pin="D11" pad="XR2"/>
+<connect gate="G$1" pin="D12" pad="XR7"/>
+<connect gate="G$1" pin="D13" pad="XR4"/>
+<connect gate="G$1" pin="D2" pad="XL9"/>
+<connect gate="G$1" pin="D3" pad="XL4"/>
+<connect gate="G$1" pin="D4" pad="XL6"/>
+<connect gate="G$1" pin="D5" pad="XL7"/>
+<connect gate="G$1" pin="D6" pad="XR9"/>
+<connect gate="G$1" pin="GND_E" pad="GND_E"/>
+<connect gate="G$1" pin="GND_L1" pad="XL5"/>
+<connect gate="G$1" pin="GND_L2" pad="XL8"/>
+<connect gate="G$1" pin="GND_R1" pad="XR3"/>
+<connect gate="G$1" pin="GND_R2" pad="XR6"/>
+<connect gate="G$1" pin="SCL_E" pad="SCL_E"/>
+<connect gate="G$1" pin="SDA_E" pad="SDA_E"/>
+<connect gate="G$1" pin="VCC" pad="XR8"/>
+<connect gate="G$1" pin="VCC/2" pad="XL3"/>
+<connect gate="G$1" pin="VCC_E" pad="VCC_E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PANEL" package="MI_34X34MM_I2C_EXT_ADDON_PANEL">
+<connects>
+<connect gate="G$1" pin="A1" pad="XL2"/>
+<connect gate="G$1" pin="D10" pad="XR5"/>
+<connect gate="G$1" pin="D11" pad="XR2"/>
+<connect gate="G$1" pin="D12" pad="XR7"/>
+<connect gate="G$1" pin="D13" pad="XR4"/>
+<connect gate="G$1" pin="D2" pad="XL9"/>
+<connect gate="G$1" pin="D3" pad="XL4"/>
+<connect gate="G$1" pin="D4" pad="XL6"/>
+<connect gate="G$1" pin="D5" pad="XL7"/>
+<connect gate="G$1" pin="D6" pad="XR9"/>
+<connect gate="G$1" pin="GND_E" pad="GND_E"/>
+<connect gate="G$1" pin="GND_L1" pad="XL5"/>
+<connect gate="G$1" pin="GND_L2" pad="XL8"/>
+<connect gate="G$1" pin="GND_R1" pad="XR3"/>
+<connect gate="G$1" pin="GND_R2" pad="XR6"/>
+<connect gate="G$1" pin="SCL_E" pad="SCL_E"/>
+<connect gate="G$1" pin="SDA_E" pad="SDA_E"/>
+<connect gate="G$1" pin="VCC" pad="XR8"/>
+<connect gate="G$1" pin="VCC/2" pad="XL3"/>
+<connect gate="G$1" pin="VCC_E" pad="VCC_E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCB_44X44">
+<gates>
+<gate name="G$1" symbol="PCB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PCB_44X44MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
